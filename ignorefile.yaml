@@ -1,0 +1,3 @@
+ignore:
+  - changeset: sql/decorated/example1.mssql.sql::22::amalik
+    reason: Fails on production, fix planned for the next release

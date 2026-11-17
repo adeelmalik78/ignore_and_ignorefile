@@ -1,0 +1,10 @@
+# Commands showing --ignore argument
+liquibase status --ignore=sql/decorated/example1.mssql.sql::22::amalik
+liquibase update-sql --ignore=sql/decorated/example1.mssql.sql::22::amalik
+liquibase update --ignore=sql/decorated/example1.mssql.sql::22::amalik
+
+
+# Command showing --ignore-file argument
+liquibase status --ignore-file=ignorefile.yaml
+liquibase update-sql --ignore-file=ignorefile.yaml
+liquibase update --ignore-file=ignorefile.yaml
